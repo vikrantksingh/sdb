@@ -5370,13 +5370,13 @@ img{
 .pricing-block-two .price{
 	position: relative;
 	display: inline-block;
-	font-size: 38px;
+	font-size: 18px;
 	line-height: .9em;
 	color: #ffffff;
 	font-weight: 600;
 	margin-bottom: 20px;
-	padding: 20px 30px;
-	padding-right: 30px;
+	padding: 15px 15px;
+	padding-right: 18px;
 	border-radius: 0 50px 50px 0;
 	background: rgb(247,0,104);
 	-webkit-transition: all 500ms ease;
