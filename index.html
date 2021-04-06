@@ -1388,14 +1388,23 @@
 	    </style>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
 <script>
-    $(document).ready(function(){   
-    setTimeout(function () {
-        $("#cookieConsent").fadeIn(200);
-     }, 1000);
-    $("#closeCookieConsent, .cookieConsentOK").click(function() {
+    $(document).ready(function(){        
+        if(Cookies.get('sdb') !== 'true'){
+            setTimeout(function () {
+                $("#cookieConsent").fadeIn(200);
+            }, 1000);
+        }
+    
+    $("#closeCookieConsent").click(function() {              
         $("#cookieConsent").fadeOut(200);
-    }); 
+    });
+    
+    $(".cookieConsentOK").click(function () {
+            Cookies.set('sdb', 'true', { expires: 7 });
+            $("#cookieConsent").fadeOut(200);
+        });
 }); 
 </script>
 
