@@ -1,0 +1,64 @@
+[data-toggle="collapse"] i:before {
+  content: "\f068";
+}
+[data-toggle="collapse"].collapsed i:before {
+  content: "\f067";
+}
+#accordion .card {
+  background-color: #fafafa;
+}
+#accordion .card-header {
+  margin-bottom: 8px;
+}
+#accordion .accordion-title {
+  position: relative;
+  display: block;
+  padding: 20px 0 20px 50px;
+  background: #e1137b;
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  width: 100%;
+  text-align: left;
+  transition: all 0.4s ease-in-out;
+}
+#accordion .accordion-title i {
+  position: absolute;
+  width: 40px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  color: #fff;
+  background: radial-gradient(rgb(218 31 126 / 80%), #e1137b);
+  text-align: center;
+  border-right: 1px solid transparent;
+}
+#accordion .accordion-title:hover {
+  padding-left: 60px;
+  background: #4c35a9;
+  color: #fff;
+}
+#accordion .accordion-title:hover i {
+  border-right: 1px solid #fff;
+  background: #4c35a9;
+}
+#accordion .accordion-body ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+#accordion .accordion-body li {
+  padding-left: 1.2rem;
+  text-indent: -1.2rem;
+}
+#accordion .accordion-body li:before {
+  content: "\f10a";
+  padding-right: 5px;
+  font-family: "Flaticon";
+  font-size: 16px;
+  font-style: normal;
+  color: #e1137b;
+}
