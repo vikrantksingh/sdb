@@ -1,184 +1,173 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {
-  font-family: Arial;
-  font-size: 17px;
-  padding: 8px;
-}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      font-family: Arial;
+      font-size: 17px;
+      padding: 8px;
+    }
 
-* {
-  box-sizing: border-box;
-}
+    * {
+      box-sizing: border-box;
+    }
 
-.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  margin: 0 -16px;
-}
+    .row {
+      display: -ms-flexbox;
+      /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap;
+      /* IE10 */
+      flex-wrap: wrap;
+      margin: 0 -16px;
+    }
 
-.col-25 {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-}
+    .col-25 {
+      -ms-flex: 25%;
+      /* IE10 */
+      flex: 25%;
+    }
 
-.col-50 {
-  -ms-flex: 50%; /* IE10 */
-  flex: 50%;
-}
+    .col-50 {
+      -ms-flex: 50%;
+      /* IE10 */
+      flex: 50%;
+    }
 
-.col-75 {
-  -ms-flex: 75%; /* IE10 */
-  flex: 75%;
-}
+    .col-75 {
+      -ms-flex: 75%;
+      /* IE10 */
+      flex: 75%;
+    }
 
-.col-25,
-.col-50,
-.col-75 {
-  padding: 0 16px;
-}
+    .col-25,
+    .col-50,
+    .col-75 {
+      padding: 0 16px;
+    }
 
-.container {
-  background-color: #f2f2f2;
-  padding: 5px 20px 15px 20px;
-  border: 1px solid lightgrey;
-  border-radius: 20px;
-}
+    .container {
+      background-color: #f2f2f2;
+      padding: 5px 20px 15px 20px;
+      border: 1px solid lightgrey;
+      border-radius: 20px;
+    }
 
-input[type=text] {
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-}
+    input[type=text] {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
 
-label {
-  margin-bottom: 10px;
-  display: block;
-}
+    label {
+      margin-bottom: 10px;
+      display: block;
+    }
 
-.icon-container {
-  margin-bottom: 20px;
-  padding: 7px 0;
-  font-size: 24px;
-}
+    .icon-container {
+      margin-bottom: 20px;
+      padding: 7px 0;
+      font-size: 24px;
+    }
 
-.btn {
-  background-color: #a73994 ;
-  color: white;
-  padding: 12px;
-  margin: 10px 0;
-  border: none;
-  width: 100%;
-  border-radius: 3px;
-  cursor: pointer;
-  font-size: 17px;
-}
+    .btn {
+      background-color: #a73994;
+      color: white;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      width: 100%;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 17px;
+    }
 
-.btn:hover {
-  background-color: #ec167f;
-}
+    .btn:hover {
+      background-color: #ec167f;
+    }
 
-a {
-  color: #2196F3;
-}
+    a {
+      color: #2196F3;
+    }
 
-hr {
-  border: 1px solid lightgrey;
-}
+    hr {
+      border: 1px solid lightgrey;
+    }
 
-span.price {
-  float: right;
-  color: grey;
-}
+    span.price {
+      float: right;
+      color: grey;
+    }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
-@media (max-width: 800px) {
-  .row {
-    flex-direction: column-reverse;
-  }
-  .col-25 {
-    margin-bottom: 20px;
-  } 
-}
-</style>
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+    @media (max-width: 800px) {
+      .row {
+        flex-direction: column-reverse;
+      }
 
-<meta charset="utf-8">
-<title>Scrum Day Bangalore 2021 - Hosted by Xebia</title>
-<!-- Stylesheets -->
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link href="css/responsive.css" rel="stylesheet">
-<!--Color Switcher Mockup-->
-<link href="css/color-switcher-design.css" rel="stylesheet">
-
-<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-<link rel="icon" href="images/favicon.png" type="image/x-icon">
-
-<!-- Responsive -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-
+      .col-25 {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+  <meta charset="utf-8">
+  <title>Scrum Day Bangalore 2021 - Hosted by Xebia</title>
+  <!-- Stylesheets -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <!--Color Switcher Mockup-->
+  <link href="css/color-switcher-design.css" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <!-- Responsive -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 </head>
+
 <body class="overflow-hidden" style="background-image: url(images/main-slider/scrum-pages-1.png);">
-
-  
-
-<div class="col-12 p-0 pt-3 overflow-hidden justify-content-center d-flex" >
-
-  <div class="col-12 col-sm-8 overflow-hidden">
-    <div class="container" >
-      <form  action="payscript.html" name="google-sheet" method="post" style="padding: 25px;">
-      
-        <div class="" >
-          <div class="col-12">
-            <h3 style="text-align: center;margin:20px 10px;font-family: Arial;">EARLY BIRD REGISTRATION</h3>
-          
-
-            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-            <input type="text" id="fname" name="name" placeholder="Name">
-            <label for="email"><i class="fa fa-envelope"></i> Email</label>
-            <input type="text" id="email" name="email" placeholder="Email Address">
-
-            <label for="city"><i class="fa fa-mobile"></i> Mobile</label>
-            <input type="text" id="city" name="mobile" placeholder="Mobile Number">
-            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-            <input type="text" id="adr" name="address" placeholder="Address">
-
-            <input type="submit"  value="Pay Now" class="btn">
-          
-        </div>
-       
-
-
-
-      </form>
+  <div class="col-12 p-0 pt-3 overflow-hidden justify-content-center d-flex">
+    <div class="col-12 col-sm-8 overflow-hidden">
+      <div class="container">
+        <form action="payscript.html" name="google-sheet" method="post" style="padding: 25px;">
+          <div class="">
+            <div class="col-12">
+              <div>
+                <a style="cursor: pointer;" href="index.html" class="fa fa-arrow-left" aria-hidden="true">&nbsp;&nbsp;Back</a>
+                <h3 style="text-align: center;margin:20px 10px;font-family: Arial;">EARLY BIRD REGISTRATION</h3>
+              </div>              
+              <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+              <input type="text" id="fname" name="name" placeholder="Name">
+              <label for="email"><i class="fa fa-envelope"></i> Email</label>
+              <input type="text" id="email" name="email" placeholder="Email Address">
+              <label for="city"><i class="fa fa-mobile"></i> Mobile</label>
+              <input type="text" id="city" name="mobile" placeholder="Mobile Number">
+              <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+              <input type="text" id="adr" name="address" placeholder="Address">
+              <input type="submit" value="Pay Now" class="btn">
+            </div>
+        </form>
+      </div>
     </div>
   </div>
- 
-</div>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxm5qM7OdtGv-FVBd0sJ8OJBqMWHO30yj1hXgq1LgkdKjEi7x8oYMRSuHvOZ1_YFcEuYg/exec'
+    const form = document.forms['google-sheet']
 
-<script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbxm5qM7OdtGv-FVBd0sJ8OJBqMWHO30yj1hXgq1LgkdKjEi7x8oYMRSuHvOZ1_YFcEuYg/exec'
-  const form = document.forms['google-sheet']
-
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => window.location.replace("payscript.html"))
-      .catch(error => console.error('Error!', error.message))
-  })
-</script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => window.location.replace("payscript.html"))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
+
 </html>
