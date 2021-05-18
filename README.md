@@ -10,3 +10,5 @@ Payment Sheet: https://docs.google.com/spreadsheets/d/1xFXZFIR8IpzbLnUZw1TQorUHJ
 Payment Console Script: https://script.google.com/u/0/home/projects/1PYIXtyyeRBiz3QZ4eslzO_z9c2leywFWfQppXQspzvJCX_-sHpkyZeES/edit
 
 Zap Automation (Mail Trigger): https://zapier.com/app/dashboard?redirect=true
+
+Free delegate sheet: https://docs.google.com/spreadsheets/d/15r4e-Wt_f7oyNvcRfFVl8OCYdpmfsuqJxhM3PaOyyXE/edit#gid=0
