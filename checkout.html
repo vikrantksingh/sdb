@@ -138,8 +138,8 @@
           <div class="">
             <div class="col-12">
               <div>
-                <a style="cursor: pointer; font-family: Arial;" href="index.html" class="fa fa-arrow-left" aria-hidden="true">&nbsp;&nbsp;Back</a>
-                <h3 style="text-align: center;margin:20px 10px;font-family: Arial;">REGISTRATION FORM</h3>
+                <a style="cursor: pointer;" href="index.html" class="fa fa-arrow-left" aria-hidden="true">&nbsp;&nbsp;Back</a>
+                <h3 style="text-align: center;margin:20px 10px;font-family: Arial;">REGISTRATION</h3>
               </div>              
               <label for="fname"><i class="fa fa-user"></i> Full Name</label>
               <input type="text" id="fname" name="name" placeholder="Name" required="">
@@ -171,7 +171,7 @@
     form.addEventListener('submit', e => {
       e.preventDefault()
       fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-        .then(response => window.location.replace("https://razorpay.com/payment-button/pl_GZwPv2T6cSr9yc/view/?utm_source=payment_button&utm_medium=button&utm_campaign=payment_button"))
+        .then(response => window.location.replace("https://razorpay.com/payment-button/pl_HA8fUTT1JLnwEv/view/?utm_source=payment_button&utm_medium=button&utm_campaign=payment_button"))
         .catch(error => console.error('Error!', error.message))
     })
   </script>
