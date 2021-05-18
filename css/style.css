@@ -323,6 +323,28 @@ color:#ffffff;
 	transform-origin: bottom left;
 }
 
+.btn-style-one:disabled,
+button:disabled{
+	background-color: #c9c9c9;
+	color:#555555;
+}
+
+.btn-style-one:disabled:before,
+button:disabled{
+	background-color: #c9c9c9;
+	color:#555555;
+}
+
+.btn-style-one:disabled:hover,
+button:disabled{
+	background-color: #c9c9c9;
+	color:#555555;
+}
+
+.roundedForm{
+	border-radius: 40px;
+}
+
 /* Button style two*/
 
 .btn-style-two{
